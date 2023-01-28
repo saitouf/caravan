@@ -36,13 +36,26 @@ header .heading{ /*headerタグ内のheadingクラスにのみ反映される*/
 .main-visual{
   width: 100%; /*横幅いっぱい*/
   height: 300px; /*高さ300px*/
-  background-color: orange; /*背景色orange*/
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-content{
-  width: 350px; /*横幅350px*/
+  width: 40%;
   height: 300px; /*親の高さに揃える*/
-  background-color: gold; /*背景色gold*/
+  background-color: rgba( 0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 105px;
+}
+
+.main-visual-text{
+  color: #fff;
+}
+
+.main-visual-name{
+  margin-top: 30px;
+  color: #fff;
 }
 
 .main{
@@ -55,14 +68,12 @@ header .heading{ /*headerタグ内のheadingクラスにのみ反映される*/
 
 .blog{
   width: 600px; /*横幅600px*/
-  height: 1400px; /*高さ1400px*/
-  background-color: limegreen; /*背景色limegreen*/
+  height: 1400px; /*高さ1400px*
 }
 
 .sidebar{
   width: 240px; /*横幅240px*/
   height: 1400px; /*高さ1400px*/
-  background-color: palegreen; /*背景色palegreen*/
 }
 
 footer{
